@@ -1,16 +1,17 @@
-# Error Detector
+# Error Detector – Text and Speech Analysis
 
-## Project Overview
+## Project Description
 
-The Error Detector is a text analysis application designed to identify common errors in written content. It helps users improve the accuracy and quality of their writing by detecting possible spelling, grammar, and language mistakes.
+The Error Detector is a Text and Speech Analysis application designed to identify errors in written text and help users improve the quality of their writing. It analyzes the given input and provides feedback on detected errors, supporting clearer and more accurate communication.
 
 ## Features
 
-* Detects common writing errors.
-* Identifies possible spelling mistakes.
-* Helps improve text accuracy.
-* Supports automated text checking.
-* Provides an easy-to-use interface.
+1. Text Error Detection
+2. Text Analysis
+3. Error Identification
+4. Writing Improvement Support
+5. User-Friendly Interface
+6. Quick Text Processing
 
 ## Technologies Used
 
@@ -20,38 +21,58 @@ The Error Detector is a text analysis application designed to identify common er
 * Natural Language Processing (NLP)
 * Text Processing Libraries
 
-## How It Works
+## Requirements
 
-1. The user enters a sentence or paragraph.
-2. The application analyzes the input text.
-3. Possible errors are identified using the implemented checking method.
-4. The detected errors are presented to the user.
-5. The user can review and correct the text.
+* Google account
+* Internet connection
+* Google Colab
+* Text input
 
-## Input
+## How to Run
 
-A sentence containing spelling or grammatical errors.
+1. Open Google Colab.
+2. Create a new notebook.
+3. Paste the application code into a code cell.
+4. Run the code and wait for the required libraries to load.
+5. Open the Gradio application link.
+6. Enter the text to be checked.
+7. Click the error detection button.
+8. View the detected errors and feedback.
 
-**Example:**
-"She go to school everyday."
+## Sample Input
 
-## Output
+"She go to school every day."
 
-* **Detected Error:** Subject-verb agreement.
-* **Suggested Correction:** "She goes to school every day."
+## Expected Output
 
+* **Input Text:** She go to school every day.
+* **Detected Error:** Subject-verb agreement error.
+* **Suggested Correction:** She goes to school every day.
+
+## Project Workflow
+
+Text Input
+↓
+Text Processing
+↓
+Error Detection
+↓
+Error Identification
+↓
+Display Results
 
 ## Applications
 
 * Grammar checking
-* Writing improvement
-* Academic content review
-* Text proofreading
+* Academic writing
+* Content editing
 * Language learning
+* Document proofreading
+* Improving written communication
 
 ## Note
 
-The application focuses on the types of errors supported by its implemented detection method. It may not identify every grammatical or contextual mistake.
+This application is developed for educational purposes as part of the Text and Speech Analysis (TSA) project. The types of errors detected depend on the rules and methods implemented in the application.
 
 ## Application Type
 
