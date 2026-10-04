@@ -28,6 +28,19 @@ The Error Detector is a text analysis application designed to identify common er
 4. The detected errors are presented to the user.
 5. The user can review and correct the text.
 
+## Input
+
+A sentence containing spelling or grammatical errors.
+
+**Example:**
+"She go to school everyday."
+
+## Output
+
+* **Detected Error:** Subject-verb agreement.
+* **Suggested Correction:** "She goes to school every day."
+
+
 ## Applications
 
 * Grammar checking
